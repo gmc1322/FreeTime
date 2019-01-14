@@ -1,0 +1,2 @@
+Error: I am printing in: Verbose and my message type is: Error
+Warning: Testing Other Stuff 

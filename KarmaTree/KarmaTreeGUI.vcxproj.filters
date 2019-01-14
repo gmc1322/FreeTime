@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\GUIFunctions.cpp" />
+    <ClCompile Include="Source\Windows\BaseWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Buttons\Button.cpp">
+      <Filter>Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Buttons\Input.cpp">
+      <Filter>Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Buttons\Switch.cpp">
+      <Filter>Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Overloads\Strings.cpp">
+      <Filter>Overloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Overloads\ImVec.cpp">
+      <Filter>Overloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui_impl_glfw_gl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO\MetaFunctions.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO\SaveFunctions.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO\LoadFunctions.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\NPCWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\PlayerWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\gl3w\GL\gl3w.c">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Buttons\MultiInput.cpp">
+      <Filter>Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\TrunkWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GUIFunctions.h" />
+    <ClInclude Include="Source\Windows\BaseWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Buttons\Button.h">
+      <Filter>Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Buttons\Input.h">
+      <Filter>Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Buttons\Switch.h">
+      <Filter>Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Overloads\Strings.h">
+      <Filter>Overloads</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Overloads\ImVec.h">
+      <Filter>Overloads</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imgui_impl_glfw_gl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO\SaveFunctions.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO\MetaFunctions.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO\LoadFunctions.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\NPCWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\PlayerWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\gl3w\GL\gl3w.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\gl3w\GL\glcorearb.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\glfw\include\GLFW\glfw3.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\glfw\include\GLFW\glfw3native.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Buttons\MultiInput.h">
+      <Filter>Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\TrunkWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{f18ebb06-fa40-471f-b5d2-61e63837ed56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buttons">
+      <UniqueIdentifier>{27143dc0-0870-4d82-9a5c-27433cf4dd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overloads">
+      <UniqueIdentifier>{763c5124-7aa3-4431-9478-7f82b82dd5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{4cd91cf3-b9d8-4397-8ef0-1b42d2fd5e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{10214064-f884-4da7-ab51-a97b25844b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{a02707e9-f0a8-4ede-9bf4-eee6da8c6033}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
